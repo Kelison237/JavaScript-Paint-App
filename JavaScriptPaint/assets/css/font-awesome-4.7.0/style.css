@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(4, 3, 3, 0.9);
+}
+
+canvas {
+    background: #fff;
+    border: 4px solid wheat;
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+    background-color: rgb(43, 40, 40);
+    color: rgba(199, 172, 172, 0.9);
+    text-decoration: none;
+    border: 2px solid rgb(145, 114, 56);
+    border-radius: 3px;
+    padding: 5px 10px;
+margin: 22px;
+}
+a:hover {
+    text-shadow: 2px 3px 12px;
+    transition: 0.42s;
+}
+p {
+    padding: 23px;
+}
+
+.pen-tools{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+p {
+    text-align: center;  
+}
+.fa-refresh {
+    background-color: rgb(43, 40, 40);
+    color: rgba(199, 172, 172, 0.9);
+    text-decoration: none;
+    border: 2px solid rgb(145, 114, 56);
+    border-radius: 3px;
+    padding: 5px 10px;
+margin: 22px;
+
+    cursor: pointer;
+}
+
+.pen-size {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+input[type=color] {
+    border: none;
+    background-color: rgb(91, 81, 81);
+    border-radius: 2px; 
+    
+}
+.board {
+    width: 800px;
+    margin: auto;
+}
+
+.drawing-colors {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.color-circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.color-circle:nth-child(1){
+    background-color: hotpinkc;
+}
+.color-circle:nth-child(1){
+    background-color: hotpink;
+}
+.color-circle:nth-child(2){
+    background-color: orange;
+}
+.color-circle:nth-child(3){
+    background-color: red;
+}
+.color-circle:nth-child(4){
+    background-color: yellow;
+}
+.color-circle:nth-child(5){
+    background-color: black;
+}
+.color-circle:nth-child(6){
+    background-color: blue;
+}
+.color-circle:nth-child(7){
+    background-color: white;
+}
+.color-circle:nth-child(8){
+    background-color: green;
+}
+.color-circle:nth-child(9){
+    background-color: grey;
+}
+.color-circle:nth-child(10){
+    background-color: gray;
+}
+
+
+.active {
+    transition: 1.2s;
+    transform: scale(1.3);
+}
